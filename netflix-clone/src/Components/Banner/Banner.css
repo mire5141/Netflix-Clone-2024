@@ -1,7 +1,7 @@
 .banner {
   /* margin-top: 10vh; */
   height: 80vh;
-  /* margin-bottom: 80px; */
+  margin-bottom: 80px;
   color: white;
   object-fit: contain;
 }
@@ -15,7 +15,9 @@
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3re;
-  color: #000;
+  color: white;
+  /* background-color: blue; */
+  width: fit-content;
 }
 
 .banner_description {
@@ -25,6 +27,7 @@
   font-size: 1rem;
   max-width: 360px;
   height: 80px;
+  color: white;
 }
 
 .banner_button {
